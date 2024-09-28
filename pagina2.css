@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*
+Selector Body
+*/
+
+body{
+    background-color: #34f4ff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+
+}
+
+#contenedor{
+    width: 90%;
+    margin: 5px auto;
+    border: 5px silver inset;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: rgb(186, 186, 186);
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+nav ul li a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    
+}
+
+
+a:hover{
+    color: #34f4ff;
+    text-decoration: underline;
+}
+
+header{
+    margin-top: 42px;
+    height: 150px;
+    background: silver url("../Aplicaciones web Ejercicios/IMG/Imagen CV.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 150px;
+}
+
+h2, h3, h4, h5, h6{
+    text-align: center;
+    margin: 10px;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+    border: 1px silver solid;
+    border-radius: 20px;
+    margin: 0px 25px;
+}
+
+
+.impares{
+    color: crimson;
+    border-top-right-radius: 65px;
+}
+
+.pares{
+    color: blueviolet;
+    padding: 0px 50px;
+}

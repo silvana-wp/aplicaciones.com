@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--Boton tipo checkbox-->
+        <p>
+            <label for="lenguaje">Lenguajes Favoritos</label><br>
+            <input type="checkbox" id="java" name="java"checked value="java">Java<br>
+            <input type="checkbox" id="javascrip" name="javascrip" value="javascrip">Javascrip<br>
+            <input type="checkbox" id="php" name="php" value="php">PHP<br>
+        </p>
+        <p>
+            <label for="so">Sistema Operativo</label><br>
+            <input type="radio" id="so" name="so" value="windows">Windows<br>
+            <input type="radio" id="so" name="so" value="marcos">Marcos<br>
+            <input type="radio" id="so" name="so" value="linux">Linux<br>
+        </p>
+        <!--Boton para acciones o eventos-->
+        <p>
+            <button id="agregar" name="agregar" onclick="alert('Agregar')">Agregar</button>
+            <button id="eliminar" name="eliminar" onmouseover="alert('Eliminar')">Eliminar</button>
+            <button id="modificar" name="modificar" ondblclick="alert('Modificar')">Modificar</button>
+        </p>
+        <input type="submit" name="remit" value="Enviar">
+    </form>
+</body>
+</html>
